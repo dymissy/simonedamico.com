@@ -1,0 +1,46 @@
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  font-family: $textFont;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headingFont;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 900;
+  margin-bottom: .2em;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+p {
+  color: rgba(0,0,0,.84);
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-bottom: .6em;
+}

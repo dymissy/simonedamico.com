@@ -1,12 +1,43 @@
 #about {
   background: white;
+  flex-wrap: wrap;
 
   div {
-    margin: 2vh 4vw;
+    align-items: baseline;
+
+    &.about-title {
+      width: 100%;
+      text-align: center;
+
+      @media only screen and (max-width: 767px) {
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+    }
+
+    &.about-portrait {
+      width: 40%;
+      padding-right: 5%;
+
+      @media only screen and (max-width: 767px) {
+        width: 60%;
+        padding-right: 0;
+      }
+    }
+
+    &.about-story {
+      width: 55%;
+
+      @media only screen and (max-width: 767px) {
+        width: 90%;
+      }
+    }
 
     img {
-      max-width: 32vw;
+      max-width: 100%;
       border-radius: 100%;
     }
   }
+
+
 }

@@ -7,26 +7,28 @@
     <title>Simone D'Amico - Agile software engineer from Italy</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800,900|Lato:400,400i,700" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" id="style">
 </head>
 <body>
-    <main>
-        <section id="intro" class="parallax">
-            <h1>Hi, I'm Simone.<br>Agile Software Engineer &amp; Speaker.</h1>
-        </section>
-        <section id="about">
-            <div>
-                <img src="assets/images/portrait.jpg" alt="Simone D'Amico">
-            </div>
+<main>
+    <section id="intro" class="parallax">
+        <h1>Hi, I'm Simone.<br>Agile Software Engineer &amp; Speaker.</h1>
+    </section>
+    <section id="about">
+        <div class="about-title">
+            <h2>Who I am</h2>
+            <h3>Agile Software Engineer &amp; Speaker.</h3>
+        </div>
+        <div class="about-portrait"><img src="assets/images/portrait.jpg" alt="Simone D'Amico"></div>
+        <div class="about-story">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis eleifend ligula. Suspendisse ut dapibus nibh. In faucibus arcu et magna iaculis maximus. Proin sollicitudin nisl eu lorem finibus dignissim.</p>
+            <p>Integer lacinia sem nisi, ac luctus sapien fringilla a. Ut ut risus lacinia, laoreet nisl at, dictum ipsum. Vivamus feugiat risus purus, non egestas felis sodales ut. Quisque condimentum lobortis ante, ac iaculis purus porttitor vel. Praesent malesuada justo tellus, non feugiat nulla mollis non. Nunc at augue erat. Nulla mollis cursus justo, ac posuere elit consequat in. Suspendisse purus lacus, pretium in consectetur id, volutpat ac sapien.</p>
+        </div>
+    </section>
+</main>
 
-            <div>
-                <h2>Who I am</h2>
-                <h3>Agile Software Engineer &amp; Speaker.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis eleifend ligula. Suspendisse ut dapibus nibh. In faucibus arcu et magna iaculis maximus. Proin sollicitudin nisl eu lorem finibus dignissim.</p>
-                <p>Integer lacinia sem nisi, ac luctus sapien fringilla a. Ut ut risus lacinia, laoreet nisl at, dictum ipsum. Vivamus feugiat risus purus, non egestas felis sodales ut. Quisque condimentum lobortis ante, ac iaculis purus porttitor vel. Praesent malesuada justo tellus, non feugiat nulla mollis non. Nunc at augue erat. Nulla mollis cursus justo, ac posuere elit consequat in. Suspendisse purus lacus, pretium in consectetur id, volutpat ac sapien.</p>
-            </div>
-
-        </section>
-    </main>
+<script>
+document.getElementById('style').setAttribute('href', 'assets/css/style.css?'+Math.random());
+</script>
 </body>
 </html>

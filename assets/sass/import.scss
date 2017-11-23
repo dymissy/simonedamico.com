@@ -1,10 +1,13 @@
-@import "vendor/normalize";
 @import "vars";
+@import "vendor/normalize";
+@import "vendor/hamburgers/hamburgers";
 
 @import "effects/parallax";
 
 @import "global";
 @import "fonts";
+
+@import "elements/menu";
 
 @import "sections/intro";
 @import "sections/about";

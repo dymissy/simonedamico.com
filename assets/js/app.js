@@ -6,6 +6,14 @@ let menu = () => {
         menuBtn.classList.toggle('is-active');
         menu.classList.toggle('is-active');
     });
+
+    let items = menu.getElementsByTagName('a');
+    for(let item of items) {
+        item.addEventListener('click', (e) => {
+            menuBtn.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+        });
+    }
 };
 
 

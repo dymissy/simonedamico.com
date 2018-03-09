@@ -17,7 +17,7 @@
 
 
   a {
-    color: rgba(0,0,0,.84);
+    color: $textColor;
     display: none;
     font-family: $headingFont;
     font-size: 5vw;
@@ -26,6 +26,10 @@
     padding-left: 10vw;
     text-decoration: none;
     transition: 0.3s;
+
+    &:hover {
+      color: $linkHoverColor;
+    }
 
     @media only screen and (max-width: 767px) {
       padding-bottom: 5vh;

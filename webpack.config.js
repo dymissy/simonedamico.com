@@ -11,13 +11,13 @@ const config = {
         'css/style': './assets/sass/import.scss'
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         filename: '[name].[chunkhash].js',
         sourceMapFilename: '[name].[chunkhash].map'
     },
     devtool: 'source-map',
     devServer: {
-        contentBase: './dist'
+        contentBase: './docs'
     },
     module: {
         rules: [
@@ -52,7 +52,7 @@ const config = {
     plugins: [
         new CopyWebpackPlugin([{
             from: __dirname + '/assets/images',
-            to: __dirname + '/dist/images'
+            to: __dirname + '/docs/images'
         }]),
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true
@@ -62,7 +62,7 @@ const config = {
             debug: false
         }),
         new ExtractTextPlugin('[name].[chunkhash].css'),
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(['docs']),
         new HtmlWebpackPlugin({template: './index.html'})
     ]
 };

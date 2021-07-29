@@ -1,11 +1,10 @@
+import Header from './Header/Header';
+import data from './backoffice.json';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          simonedamico.com
-        </p>
-      </header>
+      <Header menuItems={data.menu} socialItems={data.social} />
     </div>
   );
 }

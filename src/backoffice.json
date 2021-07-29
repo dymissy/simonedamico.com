@@ -1,0 +1,42 @@
+{
+    "menu": [
+        {
+            "label": "What I do",
+            "href": "whatido"
+        },
+        {
+            "label": "Culture & Methodology",
+            "href": "culture-methodology"
+        },
+        {
+            "label": "Publications",
+            "href": "publications"
+        },
+        {
+            "label": "Speech",
+            "href": "speech"
+        }
+    ],
+    "social": [
+        {
+            "label": "mail",
+            "href": "mailto:info[at]simonedamico.com"
+        },
+        {
+            "label": "github",
+            "href": "https://github.com/dymissy"
+        },
+        {
+            "label": "linkedin",
+            "href": "https://linkedin.com/in/simonedamico"
+        },
+        {
+            "label": "twitter",
+            "href": "https://twitter.com/dymissy"
+        },
+        {
+            "label": "facebook",
+            "href": "https://facebook.com/dymissy"
+        }
+    ]
+}

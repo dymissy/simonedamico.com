@@ -2,41 +2,50 @@
     "menu": [
         {
             "label": "What I do",
-            "href": "whatido"
+            "href": "whatido",
+            "target": "_self"
         },
         {
             "label": "Culture & Methodology",
-            "href": "culture-methodology"
+            "href": "culture-methodology",
+            "target": "_self"
         },
         {
             "label": "Publications",
-            "href": "publications"
+            "href": "publications",
+            "target": "_self"
         },
         {
             "label": "Speech",
-            "href": "speech"
+            "href": "speech",
+            "target": "_self"
         }
     ],
     "social": [
         {
             "label": "mail",
-            "href": "mailto:info[at]simonedamico.com"
+            "href": "mailto:info[at]simonedamico.com",
+            "target": "_self"
         },
         {
             "label": "github",
-            "href": "https://github.com/dymissy"
+            "href": "https://github.com/dymissy",
+            "target": "_blank"
         },
         {
             "label": "linkedin",
-            "href": "https://linkedin.com/in/simonedamico"
+            "href": "https://linkedin.com/in/simonedamico",
+            "target": "_blank"
         },
         {
             "label": "twitter",
-            "href": "https://twitter.com/dymissy"
+            "href": "https://twitter.com/dymissy",
+            "target": "_blank"
         },
         {
             "label": "facebook",
-            "href": "https://facebook.com/dymissy"
+            "href": "https://facebook.com/dymissy",
+            "target": "_blank"
         }
     ]
 }

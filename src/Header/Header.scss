@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/mixins/_breakpoints.scss";
+
+$socialIconHoverColor: #0176fa;
+$socialIconHeight: 16px;
+
+header {
+    margin-top: 72px;
+}
+
+.menu {
+    display: none;
+}
+
+.socials {
+    a.icon {
+        display: inline-block;
+        height: $socialIconHeight;
+        margin-right: 32px;
+
+        &:hover g {
+            fill: $socialIconHoverColor;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .menu {
+        display: block;
+    }
+}

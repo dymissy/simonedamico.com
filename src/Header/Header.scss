@@ -1,16 +1,39 @@
 @import "~bootstrap/scss/_functions.scss";
 @import "~bootstrap/scss/_variables.scss";
 @import "~bootstrap/scss/mixins/_breakpoints.scss";
+@import "../variables.scss";
 
+$menuTextColor: #666666;
+$menuTextColorHover: #279cb1;
 $socialIconHoverColor: #0176fa;
 $socialIconHeight: 16px;
 
 header {
+    font-size: 14px;
     margin-top: 64px;
 }
 
 .menu {
     display: none;
+    font-family: $secondaryFontFamily;
+    font-weight: 500;
+
+    li {
+        margin-right: 16px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        color: $menuTextColor;
+        text-decoration: none;
+
+        &:hover {
+            color: $menuTextColorHover;
+        }
+    }
 }
 
 .socials {

@@ -6,7 +6,7 @@ $socialIconHoverColor: #0176fa;
 $socialIconHeight: 16px;
 
 header {
-    margin-top: 72px;
+    margin-top: 64px;
 }
 
 .menu {
@@ -19,7 +19,8 @@ header {
         height: $socialIconHeight;
         margin-right: 32px;
 
-        &:hover g {
+        &:hover g,
+        &:hover path {
             fill: $socialIconHoverColor;
         }
     }

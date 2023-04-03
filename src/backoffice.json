@@ -47,5 +47,19 @@
             "href": "https://facebook.com/dymissy",
             "target": "_blank"
         }
-    ]
+    ],
+    "whoiam": {
+        "greeting": "Howdy! I am",
+        "name": "Simone D'Amico",
+        "role": "Software Engineer & Speaker",
+        "description": "At vero eos censes aut fugiat aliquid, praeter voluptatem ipsam voluptatem, quia non.",
+        "buttons": [
+            {
+                "label": "Get in touch",
+                "href": "mailto:info[at]simonedamico.com",
+                "style": "primary",
+                "target": "_self"
+            }
+        ]
+    }
 }

@@ -1,0 +1,76 @@
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/mixins/_breakpoints.scss";
+@import "../variables.scss";
+
+.who-i-am {
+    .greeting {
+        font-family: $primaryFontFamily;
+        font-size: 16px;
+        line-height: 2;
+        color: $headingPrimaryColor;
+        margin-bottom: 8px;
+        opacity: 0.8;
+    }
+
+    h1 {
+        font-family: $secondaryFontFamily;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1;
+        color: $headingTitle;
+    }
+
+    h2 {
+        color: $headingPrimaryColor;
+        font-family: $secondaryFontFamily;
+        font-size: 24px;
+        line-height: 1;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+
+    p {
+        font-family: $primaryFontFamily;
+        font-size: 16px;
+        line-height: 1.5;
+        color: $textSecondaryColor;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    .btn-primary {
+        background-color: $headingTitle;
+        border-color: $headingTitle;
+        border-radius: 8px;
+        font-family: $secondaryFontFamily;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        padding: 16px 32px;
+        text-transform: uppercase;
+    }
+
+    .portrait {
+        background-image: url("./portrait.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 48px;
+        min-height: 360px;
+    }
+}
+
+.who-i-am-non-mobile {
+    display: none;
+}
+
+@include media-breakpoint-up(md) {
+    .who-i-am-mobile {
+        display: none;
+    }
+
+    .who-i-am-non-mobile {
+        display: block;
+    }
+}
